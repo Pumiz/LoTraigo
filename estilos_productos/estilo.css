@@ -1,0 +1,147 @@
+body {
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+  background-color: white;
+  background-attachment: fixed;
+}
+
+
+/*-- Nav --*/
+ul {
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 23px;
+  padding-right: 25px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 85px;
+}
+
+a {
+  padding: 15px;
+  color: white;
+}
+
+
+/*-- Productos -- */
+#texto {
+  color: black;
+  text-align: center;
+  font-size: 70px;
+  padding-top: 50px;
+}
+
+
+.productos {
+  height: 5px;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.productos .productos-body {
+  background-color: white;
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  margin: 200px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 5px 5px 25px grey;
+}
+
+.productos .productos-body img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+  transition: 0.5s;
+  width: 18vw;
+  border-radius: 25px;
+}
+
+.productos .productos-body:hover img {
+  top: 2%;
+}
+
+.productos .productos-body .productos-content {
+  position: relative;
+  width: 100%;
+  padding-top: 140px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.productos .productos-body:hover .productos-content {
+  bottom: 0%;
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+  transition: 0.5s;
+}
+
+.productos .productos-body .productos-content h2 {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  font-size: 30px;
+  line-height: 1em;
+  font-weight: 700;
+}
+
+.productos .productos-body .productos-content h3 {
+  color: black;
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 1em;
+  font-weight: 700;
+}
+
+.productos .productos-body .productos-content p {
+  color: white;
+}
+
+.productos .productos-body .productos-content .btn-productos {
+  position: relative;
+  color: white;
+  background-color: black;
+  border: none;
+  display: inline-block;
+  padding: 5px 5px;
+  margin-top: 2px;
+  font-weight: 700;
+  width: 8vw;
+  border-radius: 25px;
+  font-size: 1.2vw;
+}
+
+.productos .productos-body .productos-content .btn-productos:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  color: white;
+}
+
+
+/* -- Footer -- */
+footer {
+  color: white;
+  font-size: 25px;
+  padding: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: black
+}
+
+i {
+  font-size: 40px;
+}

@@ -1,0 +1,86 @@
+* {
+  font-family: Helvetica;
+}
+
+/*-- Nav --*/
+ul {
+  text-align: center;
+  font-size: 23px;
+  padding-right: 25px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 85px;
+}
+
+a {
+  padding: 15px;
+  color: white;
+}
+
+
+/* Texto de información */
+.ayuda {
+  position: relative;
+  display: block;
+}
+
+.ayuda .ayuda-body {
+  background-color: white;
+  position: relative;
+  top: 0;
+  width: 96vw;
+  height: 86vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  display: inline-block;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 70px;
+  box-shadow: 15px 15px 40px grey;
+}
+
+#contacto {
+  text-align: center;
+  display: inline-block;
+  margin: 10px 10px;
+  padding-top: 50px;
+  padding-left: 160px;
+  padding-right: 160px;
+
+}
+
+#contacto h1 {
+  text-align: center;
+  font-size: 80px;
+  display: block;
+}
+
+#contacto p {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 40px;
+  display: inline-block;
+}
+
+#contacto li {
+  font-size: 24px;
+}
+
+
+/* -- Footer -- */
+footer {
+  color: white;
+  font-size: 25px;
+  padding: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: black
+}
+
+i {
+  display: inline-block;
+  font-size: 40px;
+}
